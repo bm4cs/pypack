@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+authors = [{ name = "bm4cs", email = "ben@bencode.io" }]
+name = "build_example"
+version = "0.1.0"
+description = "Showcass the sample, correct Python build frontend build.pypa.io"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+homepage = "https://github.com/bm4cs/pypack"
+repository = "https://github.com/bm4cs/pypack"
+documentation = "https://github.com/bm4cs/pypack/blob/main/README.md"
+
+[project.optional-dependencies]
+dev = ["pytest"]
